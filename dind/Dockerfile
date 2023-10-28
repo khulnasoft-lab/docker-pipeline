@@ -1,4 +1,4 @@
-FROM docker:20.10.24-dind as base
+FROM docker:24.0.7-dind as base
 LABEL maintainer="Rémi Marseille <marseille@khulnasoft.com>"
 ARG GLIBC_VERSION
 ARG TASKFILE_VERSION
