@@ -1,4 +1,4 @@
-FROM amazonlinux:2.0.20230926.0
+FROM amazonlinux:2.0.20231020.1
 LABEL maintainer="opensource@khulnasoft.com"
 ENV container=docker
 
