@@ -1,4 +1,4 @@
-FROM php:8.2.12-cli-alpine3.18 AS base
+FROM php:8.3.1-cli-alpine3.18 AS base
 LABEL maintainer="Rémi Marseille <marseille@khulnasoft.com>"
 
 ARG APCU_VERSION
