@@ -1,4 +1,4 @@
-FROM alpine:3.18.5
+FROM alpine:3.19.1
 LABEL maintainer="opensource@khulnasoft.com"
 
 ARG SONARSCANNER_VERSION
