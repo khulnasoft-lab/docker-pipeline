@@ -26,7 +26,7 @@ RUN echo "Install AWS & Azure CLIs" && \
     rm -f awscliv2.zip && rm -rf aws && \
     echo "Done installing AWS & Azure CLIs"
 
-FROM python:3.11-alpine@sha256:4e8e9a59bf1b3ca8e030244bc5f801f23e41e37971907371da21191312087a07 AS aws-builder
+FROM python:3.13.7-alpine@sha256:587df003ff48316a56a0ddac50e1e2b64dfeca281f0c071b91920895a65b12d2 AS aws-builder
 ARG AWSCLI_VERSION=2.11.18
 RUN apk add --no-cache curl make cmake gcc g++ libc-dev libffi-dev openssl-dev && \
     pip3 install --no-cache --upgrade pip setuptools wheel
